@@ -1,6 +1,98 @@
 @import url(variables.css);
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--color-white);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.card__item {
+  padding: 48px;
+}
+
+.card__item-sedans {
+  background-color: var(--color-gold-500);
+  border-radius: 8px 8px 0 0;
+}
+
+.card__item-suvs {
+  background-color: var(--color-cyan-800);
+}
+
+.card__item-luxury {
+  background-color: var(--color-green-950);
+  border-radius: 0 0 8px 8px;
+}
+
+.card__content-icon {
+  margin-bottom: 32px;
+}
+
+.card__content-title {
+  font-family: var(--font-family-accent);
+  color: var(--color-white);
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.card__content-text {
+  font-family: var(--font-family-primary);
+  color: var(--color-gray);
+  font-size: 15px;
+  line-height: 1.65;
+  margin-bottom: 24px;
+}
+
+.card__content-button {
+  background-color: var(--color-white);
+  border: none;
+  border-radius: 25px;
+  padding: 8px 32px;
+  height: 48px;
+  font-family: var(--font-family-primary);
+  font-size: 15px;
+}
+
+.card__content-button-sedans {
+  color: var(--color-gold-500);
+
+}
+
+.card__content-button-suvs {
+  color: var(--color-cyan-800);
+
+}
+
+.card__content-button-luxury {
+  color: var(--color-green-950);
+
+}
+
+.card__content-button:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
 .attribution {
+  margin-top: 1rem;
   font-size: 11px;
   text-align: center;
 }
