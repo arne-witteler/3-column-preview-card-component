@@ -1,0 +1,15 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-gray: hsl(0, 0%, 95%);
+
+  --color-green-950: hsl(179°, 100%, 13%);
+  --color-green-500: hsl(170°, 76%, 41%);
+  --color-cyan-800: hsl(184°, 100%, 22%);
+  --color-cyan-500: hsl(184°, 67%, 45%);
+  --color-gold-500: hsl(31°, 77%, 52%);
+  --color-gold-200: hsl(42°, 100%, 73%);
+
+  --font-family-primary: 'Lexend Deca', sans-serif;
+  --font-family-accent: 'Big Shoulders Display', sans-serif;
+}
